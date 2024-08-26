@@ -24,6 +24,6 @@ Para executar este script, você precisará do Python e das seguintes biblioteca
    *Bibliotecas: Utilize o gerenciador de pacotes pip para instalar as seguintes bibliotecas:
    
    ```bash
-  pip install pandas beautifulsoup4 selenium webdriver-manager lxml
+     pip install pandas beautifulsoup4 selenium webdriver-manager lxml
    ```
 
