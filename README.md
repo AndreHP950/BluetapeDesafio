@@ -22,9 +22,10 @@ Para executar este script, você precisará do Python e das seguintes biblioteca
 2. **Instale as dependências**
    * Python: Instale a versão mais recente do Python (https://www.python.org/downloads/).
    * Bibliotecas: Utilize o gerenciador de pacotes pip para instalar as seguintes bibliotecas:
-   * Instalação do ChromeDriver
+   * Instalação do ChromeDriver: 
    * **Baixar o ChromeDriver:** Faça o download do ChromeDriver compatível com a sua versão do Google Chrome em https://chromedriver.chromium.org/.
    * **Configurar o caminho:** Coloque o arquivo do ChromeDriver em um diretório que esteja incluído na sua variável de ambiente PATH ou configure a variável de ambiente webdriver.chrome.driver para apontar para o caminho completo do arquivo.
+   * * **pandas:** Para manipulação e salvamento dos dados em formato Excel.
    ```bash
      pip install pandas beautifulsoup4 selenium webdriver-manager lxml
    ```
