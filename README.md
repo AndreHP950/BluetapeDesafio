@@ -20,8 +20,8 @@ Para executar este script, você precisará do Python e das seguintes biblioteca
    cd bluetape
    ```
 2. **Instale as dependências**
-   *Python: Instale a versão mais recente do Python (https://www.python.org/downloads/).
-   *Bibliotecas: Utilize o gerenciador de pacotes pip para instalar as seguintes bibliotecas:
+   * Python: Instale a versão mais recente do Python (https://www.python.org/downloads/).
+   * Bibliotecas: Utilize o gerenciador de pacotes pip para instalar as seguintes bibliotecas:
    
    ```bash
      pip install pandas beautifulsoup4 selenium webdriver-manager lxml
