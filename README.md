@@ -40,4 +40,34 @@ Para executar este script, você precisará do Python e das seguintes biblioteca
 ```bash
 python reclameaqui_scraper.py
 ```
+## Verifique os resultados
+Após a execução, um arquivo Excel chamado `resultados.xlsx` será criado no mesmo diretório, contendo os dados extraídos.
 
+## Personalização
+
+### XPath
+Os XPaths utilizados para localizar elementos na página podem precisar ser ajustados caso a estrutura do site mude.
+
+### Empresas
+A lista de empresas a serem analisadas pode ser expandida ou modificada alterando os XPaths nas listas `melhores_empresas_xpath` e `piores_empresas_xpath`.
+
+### Dados
+A função `extrair_dados_empresa()` pode ser modificada para extrair outros dados relevantes da página.
+
+### Formato de saída
+O formato do arquivo de saída (Excel) pode ser alterado para CSV ou outro formato desejado.
+
+## Considerações
+
+### Limitações
+A coleta de dados de forma automatizada deve respeitar os termos de uso do Reclame Aqui e outras leis de direitos autorais.
+
+### Manutenção
+A estrutura do site Reclame Aqui pode mudar ao longo do tempo, o que pode exigir ajustes no script.
+
+### Melhorias
+O script pode ser aprimorado com recursos como:
+
+- **Paralelização:** Executar várias solicitações em paralelo para acelerar a coleta de dados.
+- **Rotinas:** Agendar a execução do script em intervalos regulares.
+- **Interface gráfica:** Criar uma interface gráfica para facilitar a interação com o usuário.
