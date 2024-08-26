@@ -1,4 +1,4 @@
-## Web Scraping de Dados do Reclame Aqui: Moda
+## Web Scraping de Dados do Reclame Aqui
 
 Este projeto é uma aplicação de scraping que coleta dados de empresas da seção de Moda do site Reclame Aqui. Utiliza Selenium e BeautifulSoup para extrair informações como reclamações respondidas, índice de solução e nota do consumidor.
 
