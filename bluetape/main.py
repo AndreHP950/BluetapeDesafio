@@ -35,7 +35,7 @@ try:
 
     html_content = navegador.page_source
     soup = BeautifulSoup(html_content, 'html.parser')
-    reclamacoes_respondidas = WebDriverWait(navegador, 10).until(soup.find("span", class_="go2549335548"))
+    reclamacoes_respondidas = soup.find("span", class_="go2549335548")
     voltariam_a_fazer_negocio = soup.find("span", class_="go4263471347").text.strip()
     indice_de_solucao = soup.find("span", class_="go4263471347").text.strip()
     nota_do_consumidor = soup.find("span", class_="go1306724026").text.strip()
