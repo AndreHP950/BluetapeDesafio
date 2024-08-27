@@ -29,7 +29,7 @@ Para executar este script, você precisará do Python e das seguintes biblioteca
      pip install pandas beautifulsoup4 selenium webdriver-manager lxml
    ```
 
-   ## Como Executar
+## Como Executar
 
    ### Salve o código
    Salve o código Python em um arquivo (por exemplo, `reclameaqui_scraper.py`).
