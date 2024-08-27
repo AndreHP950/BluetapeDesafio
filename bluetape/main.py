@@ -13,7 +13,6 @@ from lxml import html
 service = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=service)
 
-
 # Acessar a página inicial do Reclame Aqui e navegar até a seção de Moda
 navegador.get("https://www.reclameaqui.com.br/")
 
